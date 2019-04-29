@@ -1,0 +1,18 @@
+{
+  "name": "test-audion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --env=node"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^4.4.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "jest": "^24.7.1"
+  }
+}
